@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "certificate-based-auth", "certificate-based-auth", "{B2969A82-F346-48B8-A1A1-6BFC664EBFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowLevelCertApp", "certificate-based-auth\LowLevelCertApp\LowLevelCertApp.csproj", "{86F602A9-3B8F-4684-996C-10619285765B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvVarCertApp", "certificate-based-auth\EnvVarCertApp\EnvVarCertApp.csproj", "{C22CABCD-8B15-4887-BF34-7732B45BF914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSetCertWorker", "certificate-based-auth\AppSetCertWorker\AppSetCertWorker.csproj", "{E2D6B065-16D2-4865-95B3-1940A03FC256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F602A9-3B8F-4684-996C-10619285765B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F602A9-3B8F-4684-996C-10619285765B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F602A9-3B8F-4684-996C-10619285765B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F602A9-3B8F-4684-996C-10619285765B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22CABCD-8B15-4887-BF34-7732B45BF914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22CABCD-8B15-4887-BF34-7732B45BF914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22CABCD-8B15-4887-BF34-7732B45BF914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22CABCD-8B15-4887-BF34-7732B45BF914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D6B065-16D2-4865-95B3-1940A03FC256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D6B065-16D2-4865-95B3-1940A03FC256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D6B065-16D2-4865-95B3-1940A03FC256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D6B065-16D2-4865-95B3-1940A03FC256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86F602A9-3B8F-4684-996C-10619285765B} = {B2969A82-F346-48B8-A1A1-6BFC664EBFB8}
+		{C22CABCD-8B15-4887-BF34-7732B45BF914} = {B2969A82-F346-48B8-A1A1-6BFC664EBFB8}
+		{E2D6B065-16D2-4865-95B3-1940A03FC256} = {B2969A82-F346-48B8-A1A1-6BFC664EBFB8}
+	EndGlobalSection
+EndGlobal
