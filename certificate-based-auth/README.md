@@ -11,3 +11,5 @@ A high-level configuration diagram of using certificate-based authentication wit
 ![Certificate-based authentication](./images/certificate-credentials-figure03.png)
 
 For an explanation of how it should be configured to work, please check the information in the following blog posts:
+
+* [How to use certificate credentials to authenticate to Azure services](https://andrewmatveychuk.com/how-to-use-certificate-credentials-to-authenticate-to-azure-services/)
