@@ -13,3 +13,11 @@ For explanations of how it should be configured to work, please check the inform
 ### Code
 
 Check the [certificate-based-auth](./certificate-based-auth/) folder for certificate-based authentication samples.
+
+## Authentication with managed identities
+
+### Blog posts
+
+### Code
+
+Check the [managed-identity-auth](./managed-identity-auth/) folder for certificate-based authentication samples.
