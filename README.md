@@ -18,6 +18,8 @@ Check the [certificate-based-auth](./certificate-based-auth/) folder for certifi
 
 ### Blog posts
 
+* [How to authenticate to Azure with managed identities from non-Azure servers](https://andrewmatveychuk.com/how-to-authenticate-to-azure-with-managed-identities-from-non-azure-servers/)
+
 ### Code
 
 Check the [managed-identity-auth](./managed-identity-auth/) folder for certificate-based authentication samples.
